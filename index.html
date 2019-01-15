@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Movies Collection</h1>
+    <button onclick="fillTable()">Fill table</button>
+    <table border="1.5" id="movieTable" align="center">
+        <tr class="header">
+            <td width="200">Name</td>
+            <td width="200">Producer</td>
+            <td width="100">Year</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td width="200"><input type="text" id="nameInput" placeholder="Enter name"/></td>
+            <td width="200"><input type="text" id="producerInput" placeholder="Enter producer name"/></td>
+            <td width="100"><input type="text" id="yearInput" placeholder="Enter year"/></td>
+            <td width="100"><button onclick="addItem()">Add Item</button></td>
+        </tr>
+    </table>
+
+    <!--<h1>Home Work</h1>-->
+    <!--<input type="text" id="inp1" />-->
+    <!--<button onclick="addItem()">Add</button>-->
+    <!--<table border="1.5" id="table" align="center">-->
+        <!--<tr class="header">-->
+            <!--<td width="200">Name the movie</td>-->
+            <!--<td width="200">Year</td>-->
+            <!--<td width="200">Director</td>-->
+        <!--</tr>-->
+    <!--</table>-->
+
+    <script src="js/script.js"></script>
+</body>
+</html>

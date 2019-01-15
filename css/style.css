@@ -1,0 +1,29 @@
+body {
+    background-color: #bbbbff;
+    font-family:"Comic Sans MS";
+    text-align: center;
+}
+
+table {
+    margin-top: 10px;
+    background-color: #8888ff;
+    text-align: center;
+}
+
+td {
+    background-color: #7777cc;
+    text-align: center;
+}
+
+tr {
+    background-color: #3333cc;
+    text-align: center;
+}
+
+.header > td {
+    font-weight:bold;
+}
+
+input {
+    width:100%;
+}
